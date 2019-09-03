@@ -21,13 +21,13 @@ sudo apt-get install libxml2-dev
 # Mac
 brew install libxml2
 
-go get github.com/moovweb/gokogiri
+go get github.com/soluchok/gokogiri
 ```
 
 ## Running tests
 
 ```bash
-go test github.com/moovweb/gokogiri/...
+go test github.com/soluchok/gokogiri/...
 ```
 
 ## Basic example
@@ -38,7 +38,7 @@ package main
 import (
   "net/http"
   "io/ioutil"
-  "github.com/moovweb/gokogiri"
+  "github.com/soluchok/gokogiri"
 )
 
 func main() {

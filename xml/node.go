@@ -6,8 +6,8 @@ import "C"
 
 import (
 	"errors"
-	. "github.com/moovweb/gokogiri/util"
-	"github.com/moovweb/gokogiri/xpath"
+	. "github.com/soluchok/gokogiri/util"
+	"github.com/soluchok/gokogiri/xpath"
 	"strconv"
 	"unsafe"
 )
